@@ -6,6 +6,6 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    rand = random.randint(1,9)
-    txt = f"Випадковe число від 1 до 99: {rand}"
+    rand = random.randint(1,6)
+    txt = f"Випадковe число від 1 до 6: {rand}"
     return txt
